@@ -2,11 +2,16 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+a {
+    color: darkred;
+    font-size: 1.0em;
+    font-family:, 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: bolder;
+    text-decoration: underline;
+ 
+    
 }
 nav ul li, footer ul li {
     display: inline;
@@ -14,30 +19,22 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
+    ;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color:darkgoldenrod
 }
 p {
     font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    line-height: 2em;
+    color:orchid;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+img {
+    position: static;
+    left: 160px;
+    top: 280px;
 }
 
-ul.posts li {
-    list-style: none;
-}
